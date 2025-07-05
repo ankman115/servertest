@@ -48,6 +48,7 @@ export class Player extends Schema {
   @type("number") playerzpos: number;
   
   @type("number") numcar: number;
+    @type("number") colorcar: number;
 }
 
 export class MyRoomState extends Schema {
