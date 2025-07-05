@@ -57,7 +57,7 @@ export class MyRoom extends Room<MyRoomState> {
             player.playerzpos = data["playerzpos"];
           
           player.numcar = data["numcar"];
-            player.numcar = data["colorcar"];
+            player.colorcar = data["colorcar"];
         });
     }
 
